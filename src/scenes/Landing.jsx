@@ -96,17 +96,24 @@ const Landing = ({setSelectedPage}) => {
                         >
                             Contact Me
                         </AnchorLink>
+                      
                         <AnchorLink
                         className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
                         onClick={()=> setSelectedPage("downloadcv")}
-                        href="#downloadcv"
+                        href="https://github.com/atahandevelopment/portfolio/blob/main/src/assets/CV.docx"
                         >
-                            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center
+                          
+                           <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center
                             justify-between font-playfair px-10">
                                 <DownloadIcon/>
+                                
                                 <p className="ml-1">Download CV</p>
                             </div>
+                        
+                            
                         </AnchorLink>
+                     
+                        
 
                         </motion.div>
 
