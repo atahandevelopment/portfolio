@@ -1,0 +1,26 @@
+#profile {
+    border:1px solid rgb(4, 4, 65);
+    background: linear-gradient(rgb(4, 4, 65), rgb(77, 21, 99));
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.3s;
+    }
+    #profile:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        opacity: 0.97;
+    }
+#logo {
+    transform: scale(1);
+    transition: all 0.2s;
+}
+#logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow;
+}
+#copyright {
+    cursor:default;
+}
