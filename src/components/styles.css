@@ -1,0 +1,44 @@
+#linkedin,
+#facebook,
+#instagram,
+#github {
+    color: #fff;
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, 2px 2px 10px #00000080,
+ 2px 2px 10px #00000080, 2px 2px 10px #00000080, 2px 2px 10px #00000080;
+    padding: 3px 3px;
+    border-radius: 10px;
+    margin: 0 20px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff,
+    0 0 100px #0072ff,
+    0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#linkedin {
+    animation-delay: 0.3s;
+}
+#instagram {
+    animation-delay: 0.7s;
+}
+#github {
+    animation-delay: 0.1s;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+        background-color: #0072ff;
+        transform: scale(1) translateY(0px);
+    }
+    50% {
+        filter:hue-rotate(180deg);
+        background-color: rgb(239, 98, 88);
+        transform: scale(1.1) translateY(20px);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+        background-color: #0072ff;
+        transform: scale(1) translateY(0px);
+    }
+}

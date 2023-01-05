@@ -117,7 +117,7 @@ const Projects = () => {
                     <Project 
                     title="Project 7" 
                     description="The aim of this project is to create an Admin panel that has a dark and light theme and allows the data from users to be tracked in an admin panel. . Skills/Tools: Mui Material, Data Grid, Nivo, FullCalendar, Formik and Yup libraries were used in this project."
-                    link="https://hasandahboard.netlify.app"
+                    link="https://hasandashboard.netlify.app"
                     />
                     <div className="flex justify-center 
                     text-center 
