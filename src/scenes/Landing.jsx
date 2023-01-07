@@ -62,16 +62,33 @@ const Landing = ({setSelectedPage}) => {
                         visible: {opacity:1, x:0},
                     }}
                     >
-                        <p className="text-6xl cursor-pointer font-playfair z-10 text-center md:text-start">
+                        <div id="flip-container" className="flex top-[-5]">
+                            <div id="front" className="text-6xl cursor-pointer font-playfair z-10 text-center md:text-star">
+                                <p>
                             Hasan {""}
                             <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20
                             xs:before:content-brush cursor-pointer  before:absolute before:-left-[45px]
                             before:-top-[110px] before:z-[-1]"
                             >Atahan</span>
+                            </p>
+                            </div>
+                            <div id="back">
+                            <p className="text-4xl cursor-pointer font-playfair z-10 text-center md:text-start">
+                            I am a <span className="text-yellow">Frontend </span>Web Developer
+                            
+                            </p>
+                            </div>
+                        </div>
+                        <p className="text-6xl cursor-pointer font-playfair z-10 flex justify-end md:text-end p-7">
                             <p className="mt-20 mb-7 text-sm text-center md:text-start">
                             Worked in public 6 years as an Officer. After 6 years in public replanned career and learned frontEnd web development. Dynamic FrontEnd Web Developer with front programming languages skills, developing complex solutions, processing strong creative thinking skills, highly energetic and integrated with strong troubleshooting abilities. Proficient in developing and designing front-end web architecture, application development, ensuring the responsiveness of application and working alongside graphic designers for web design features, building efficient, scalable and maintainable code and user- friendly UI/UX. Working technical documentation. Focusing both on technical and consumer needs to bring up the final Product. Have the ability to create algorithms effectively and communicate appropriately with team members. Quick to grasp new technologies and concepts to develop innovative and creative solutions to problems. Always eager to learn various technologies, tools and libraries. Especially interested in HTML- CSS-JS-ReactJs and Redux-MongoDB-Express-NodeJS.
                             </p>
                             </p>
+                            
+                            
+                            
+                            
+                        
                     </motion.div>
 
                     {/* CALL TO ACTIONS */}

@@ -32,7 +32,7 @@ function App() {
     setSelectedPage={setSelectedPage}
     isTopOfPage = {isTopOfPage}
     />
-      <div className="w-5/6 m-auto md:h-full">
+      <div className="w-5/6 m-auto pb-10 md:h-full">
       
         {isAboveMediumScreens && (
           <DotGroup
